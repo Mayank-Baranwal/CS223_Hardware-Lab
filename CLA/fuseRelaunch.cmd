@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/CS223_Hardware_Lab/CLA/TestBench_CLA_isim_beh.exe" -prj "C:/CS223_Hardware_Lab/CLA/TestBench_CLA_beh.prj" "work.TestBench_CLA" "work.glbl" 

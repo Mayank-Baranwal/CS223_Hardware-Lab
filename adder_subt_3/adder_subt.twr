@@ -1,0 +1,73 @@
+--------------------------------------------------------------------------------
+Release 14.4 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml adder_subt.twx adder_subt.ncd -o adder_subt.twr
+adder_subt.pcf -ucf port_add_sub.ucf
+
+Design file:              adder_subt.ncd
+Physical constraint file: adder_subt.pcf
+Device,package,speed:     xc6slx45,csg324,C,-3 (PRODUCTION 1.23 2012-12-04)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Cout           |    8.991|
+A<0>           |Z<0>           |    8.551|
+A<0>           |Z<1>           |    8.035|
+A<0>           |Z<2>           |    8.493|
+A<1>           |Cout           |    9.894|
+A<1>           |Z<1>           |    8.938|
+A<1>           |Z<2>           |    9.396|
+A<2>           |Cout           |   10.770|
+A<2>           |Z<2>           |   10.272|
+B<0>           |Cout           |   13.280|
+B<0>           |Z<0>           |   12.032|
+B<0>           |Z<1>           |   12.324|
+B<0>           |Z<2>           |   12.782|
+B<1>           |Cout           |   12.198|
+B<1>           |Z<1>           |   11.242|
+B<1>           |Z<2>           |   11.700|
+B<2>           |Cout           |   11.682|
+B<2>           |Z<2>           |   11.184|
+D              |Cout           |   11.083|
+D              |Z<1>           |   10.127|
+D              |Z<2>           |   10.585|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Feb 08 15:54:50 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 188 MB
+
+
+

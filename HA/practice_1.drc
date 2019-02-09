@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Feb 08 15:43:42 2019
+
+drc -z Practice_1.ncd Practice_1.pcf
+
+DRC detected 0 errors and 0 warnings.

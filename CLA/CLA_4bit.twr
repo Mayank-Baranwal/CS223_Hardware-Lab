@@ -1,0 +1,117 @@
+--------------------------------------------------------------------------------
+Release 14.4 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml CLA_4bit.twx CLA_4bit.ncd -o CLA_4bit.twr CLA_4bit.pcf
+
+Design file:              CLA_4bit.ncd
+Physical constraint file: CLA_4bit.pcf
+Device,package,speed:     xc3s400,pq208,-5 (PRODUCTION 1.39 2012-12-04)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |C<1>           |    7.009|
+A<0>           |C<2>           |    7.589|
+A<0>           |C<3>           |    8.746|
+A<0>           |C<4>           |    9.910|
+A<0>           |Cout           |    9.904|
+A<0>           |S<0>           |    6.997|
+A<0>           |S<1>           |    7.408|
+A<0>           |S<2>           |    8.910|
+A<0>           |S<3>           |    9.240|
+A<1>           |C<2>           |    7.418|
+A<1>           |C<3>           |    8.575|
+A<1>           |C<4>           |    9.739|
+A<1>           |Cout           |    9.733|
+A<1>           |S<1>           |    7.253|
+A<1>           |S<2>           |    8.739|
+A<1>           |S<3>           |    9.069|
+A<2>           |C<3>           |    7.116|
+A<2>           |C<4>           |    8.280|
+A<2>           |Cout           |    8.274|
+A<2>           |S<2>           |    7.280|
+A<2>           |S<3>           |    7.610|
+A<3>           |C<4>           |    7.818|
+A<3>           |Cout           |    7.812|
+A<3>           |S<3>           |    6.949|
+B<0>           |C<1>           |    7.174|
+B<0>           |C<2>           |    7.754|
+B<0>           |C<3>           |    8.911|
+B<0>           |C<4>           |   10.075|
+B<0>           |Cout           |   10.069|
+B<0>           |S<0>           |    7.162|
+B<0>           |S<1>           |    7.573|
+B<0>           |S<2>           |    9.075|
+B<0>           |S<3>           |    9.405|
+B<1>           |C<2>           |    7.160|
+B<1>           |C<3>           |    8.317|
+B<1>           |C<4>           |    9.481|
+B<1>           |Cout           |    9.475|
+B<1>           |S<1>           |    6.681|
+B<1>           |S<2>           |    8.481|
+B<1>           |S<3>           |    8.811|
+B<2>           |C<3>           |    7.972|
+B<2>           |C<4>           |    9.136|
+B<2>           |Cout           |    9.130|
+B<2>           |S<2>           |    8.136|
+B<2>           |S<3>           |    8.466|
+B<3>           |C<4>           |    8.384|
+B<3>           |Cout           |    8.378|
+B<3>           |S<3>           |    7.885|
+Cin            |C<0>           |    5.784|
+Cin            |C<1>           |    7.554|
+Cin            |C<2>           |    8.134|
+Cin            |C<3>           |    9.291|
+Cin            |C<4>           |   10.455|
+Cin            |Cout           |   10.449|
+Cin            |S<0>           |    7.542|
+Cin            |S<1>           |    7.953|
+Cin            |S<2>           |    9.455|
+Cin            |S<3>           |    9.785|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Feb 08 13:10:37 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 106 MB
+
+
+

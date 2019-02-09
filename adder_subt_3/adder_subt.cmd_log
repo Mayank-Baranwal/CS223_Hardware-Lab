@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.xst" -ofn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.xst" -ofn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 adder_subt.ngc adder_subt.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder_subt_map.ncd adder_subt.ngd adder_subt.pcf 
+par -w -intstyle ise -ol high -mt off adder_subt_map.ncd adder_subt.ncd adder_subt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adder_subt.twx adder_subt.ncd -o adder_subt.twr adder_subt.pcf 
+bitgen -intstyle ise -f adder_subt.ut adder_subt.ncd 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.xst" -ofn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc port_add_sub.ucf -p xc6slx45-csg324-3 adder_subt.ngc adder_subt.ngd  
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.xst" -ofn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc port_add_sub.ucf -p xc6slx45-csg324-3 adder_subt.ngc adder_subt.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder_subt_map.ncd adder_subt.ngd adder_subt.pcf 
+par -w -intstyle ise -ol high -mt off adder_subt_map.ncd adder_subt.ncd adder_subt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adder_subt.twx adder_subt.ncd -o adder_subt.twr adder_subt.pcf -ucf port_add_sub.ucf 
+bitgen -intstyle ise -f adder_subt.ut adder_subt.ncd 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.xst" -ofn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.xst" -ofn "C:/CS223_Hardware_Lab/adder_subt_3/adder_subt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc port_add_sub.ucf -p xc6slx45-csg324-3 adder_subt.ngc adder_subt.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder_subt_map.ncd adder_subt.ngd adder_subt.pcf 
+par -w -intstyle ise -ol high -mt off adder_subt_map.ncd adder_subt.ncd adder_subt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adder_subt.twx adder_subt.ncd -o adder_subt.twr adder_subt.pcf -ucf port_add_sub.ucf 
+bitgen -intstyle ise -f adder_subt.ut adder_subt.ncd 

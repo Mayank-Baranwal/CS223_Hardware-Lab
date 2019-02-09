@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\CS223_Hardware_Lab\HA\impact.xsl
+OUTFILE=C:\CS223_Hardware_Lab\HA\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\CS223_Hardware_Lab\HA
+LICENSE=iMPACT
+USER_INFO=iMPACT

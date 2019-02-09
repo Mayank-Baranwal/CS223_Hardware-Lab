@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/HA/Practice_1.xst" -ofn "C:/CS223_Hardware_Lab/HA/Practice_1.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/HA/Practice_1.xst" -ofn "C:/CS223_Hardware_Lab/HA/Practice_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 Practice_1.ngc Practice_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 Practice_1.ngc Practice_1.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Practice_1_map.ncd Practice_1.ngd Practice_1.pcf 
+par -w -intstyle ise -ol high -mt off Practice_1_map.ncd Practice_1.ncd Practice_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Practice_1.twx Practice_1.ncd -o Practice_1.twr Practice_1.pcf -ucf Ports.ucf 
+bitgen -intstyle ise -f Practice_1.ut Practice_1.ncd 
+bitgen -intstyle ise -f Practice_1.ut Practice_1.ncd 
