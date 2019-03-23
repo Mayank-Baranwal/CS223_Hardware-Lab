@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\CS223_Hardware_Lab\Booth_Multiplier\Booth_Mul.ncd
+OUTFILE=C:\CS223_Hardware_Lab\Booth_Multiplier\Booth_Mul.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\CS223_Hardware_Lab\Booth_Multiplier
+LICENSE=ISE
+USER_INFO=211017650_1777506774_210599777_303

@@ -1,0 +1,5 @@
+set -tmpdir "C:/CS223_Hardware_Lab/CLA/xst/projnav.tmp"
+set -xsthdpdir "C:/CS223_Hardware_Lab/CLA/xst"
+elaborate
+-ifn CLA_four_new.prj
+-ifmt mixed

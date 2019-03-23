@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/ALU_3bit/ALU_3bit.xst" -ofn "C:/CS223_Hardware_Lab/ALU_3bit/ALU_3bit.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/ALU_3bit/ALU_3bit.xst" -ofn "C:/CS223_Hardware_Lab/ALU_3bit/ALU_3bit.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/ALU_3bit/ALU_3bit.xst" -ofn "C:/CS223_Hardware_Lab/ALU_3bit/ALU_3bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 ALU_3bit.ngc ALU_3bit.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_3bit_map.ncd ALU_3bit.ngd ALU_3bit.pcf 
+par -w -intstyle ise -ol high -mt off ALU_3bit_map.ncd ALU_3bit.ncd ALU_3bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_3bit.twx ALU_3bit.ncd -o ALU_3bit.twr ALU_3bit.pcf -ucf Ports.ucf 
+bitgen -intstyle ise -f ALU_3bit.ut ALU_3bit.ncd 

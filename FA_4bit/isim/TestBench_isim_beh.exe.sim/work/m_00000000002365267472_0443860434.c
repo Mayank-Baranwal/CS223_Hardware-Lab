@@ -25,7 +25,7 @@ static const char *ng0 = "C:/CS223_Hardware_Lab/FA_4bit/FA_4bit.v";
 
 
 
-static void Cont_68_0(char *t0)
+static void Cont_35_0(char *t0)
 {
     char t5[8];
     char t20[8];
@@ -81,7 +81,7 @@ LAB0:    t1 = (t0 + 1628U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(68, ng0);
+LAB2:    xsi_set_current_line(35, ng0);
     t2 = (t0 + 600U);
     t3 = *((char **)t2);
     t2 = (t0 + 692U);
@@ -157,7 +157,7 @@ LAB7:    t31 = *((unsigned int *)t20);
 
 }
 
-static void Cont_69_1(char *t0)
+static void Cont_36_1(char *t0)
 {
     char t5[8];
     char t39[8];
@@ -340,7 +340,7 @@ LAB0:    t1 = (t0 + 1772U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(69, ng0);
+LAB2:    xsi_set_current_line(36, ng0);
     t2 = (t0 + 600U);
     t3 = *((char **)t2);
     t2 = (t0 + 692U);
@@ -589,7 +589,7 @@ LAB16:    t144 = *((unsigned int *)t132);
 
 extern void work_m_00000000002365267472_0443860434_init()
 {
-	static char *pe[] = {(void *)Cont_68_0,(void *)Cont_69_1};
+	static char *pe[] = {(void *)Cont_35_0,(void *)Cont_36_1};
 	xsi_register_didat("work_m_00000000002365267472_0443860434", "isim/TestBench_isim_beh.exe.sim/work/m_00000000002365267472_0443860434.didat");
 	xsi_register_executes(pe);
 }

@@ -18,14 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module CLA(
-    input [3:0]A,
-	 input [3:0]B,
-	 input Cin,
-	 output [4:0]C,
-	 output [3:0]S,
-	 output Cout
-	 );
+module four_bit_CLA(input [3:0]A, input [3:0]B, input Cin, output [4:0]C, output [3:0]S, output Cout);
 
 	 wire [4:1]p,g;
 	 assign p = A^B;

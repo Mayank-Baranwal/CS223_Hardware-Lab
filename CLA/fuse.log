@@ -1,21 +1,25 @@
-Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/CS223_Hardware_Lab/CLA/TestBench_CLA_isim_beh.exe -prj C:/CS223_Hardware_Lab/CLA/TestBench_CLA_beh.prj work.TestBench_CLA work.glbl 
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/CS223_Hardware_Lab/CLA/CLA_16bit_Test_isim_beh.exe -prj C:/CS223_Hardware_Lab/CLA/CLA_16bit_Test_beh.prj work.CLA_16bit_Test work.glbl 
 ISim P.49d (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 2
 Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/CS223_Hardware_Lab/CLA/CLA.v" into library work
-Analyzing Verilog file "C:/CS223_Hardware_Lab/CLA/TestBench_CLA.v" into library work
+Analyzing Verilog file "C:/CS223_Hardware_Lab/CLA/CLA_four_new.v" into library work
+Analyzing Verilog file "C:/CS223_Hardware_Lab/CLA/sixteen_bit_CLA.v" into library work
+Analyzing Verilog file "C:/CS223_Hardware_Lab/CLA/CLA_16bit_Test.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 86668 KB
-Fuse CPU Usage: 155 ms
-Compiling module CLA
-Compiling module TestBench_CLA
+Fuse Memory Usage: 87284 KB
+Fuse CPU Usage: 202 ms
+Compiling module generate_p
+Compiling module generate_g
+Compiling module CLA_four_new
+Compiling module sixteen_bit_CLA
+Compiling module CLA_16bit_Test
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
-Compiled 3 Verilog Units
-Built simulation executable C:/CS223_Hardware_Lab/CLA/TestBench_CLA_isim_beh.exe
-Fuse Memory Usage: 91104 KB
-Fuse CPU Usage: 171 ms
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable C:/CS223_Hardware_Lab/CLA/CLA_16bit_Test_isim_beh.exe
+Fuse Memory Usage: 91720 KB
+Fuse CPU Usage: 265 ms

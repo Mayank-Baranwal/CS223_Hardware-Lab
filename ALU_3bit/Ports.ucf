@@ -1,0 +1,17 @@
+NET "sel[1]" LOC = "E4";
+NET "sel[0]" LOC = "T5";
+
+NET "A[2]" LOC = "R5";
+NET "A[1]" LOC = "P12";
+NET "A[0]" LOC = "P15";
+
+NET "B[2]" LOC = "C14";
+NET "B[1]" LOC = "D14";
+NET "B[0]" LOC = "A10";
+
+NET "op[5]" LOC = "D4";
+NET "op[4]" LOC = "M13";
+NET "op[3]" LOC = "L14";
+NET "op[2]" LOC = "N14";
+NET "op[1]" LOC = "M14";
+NET "op[0]" LOC = "U18";

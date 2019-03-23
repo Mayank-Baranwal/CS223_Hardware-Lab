@@ -5,5 +5,17 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">sixteen_bit_CLA.v</arg>&quot; line <arg fmt="%d" index="2">33</arg>: Name conflict (<arg fmt="%s" index="3">&lt;g&gt; and &lt;G&gt;, renaming g as g_rnm0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">sixteen_bit_CLA.v</arg>&quot; line <arg fmt="%d" index="2">33</arg>: Name conflict (<arg fmt="%s" index="3">&lt;p&gt; and &lt;P&gt;, renaming p as p_rnm0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">p1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">C&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
 </messages>
 

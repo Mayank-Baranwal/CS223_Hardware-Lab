@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Mar 22 17:24:40 2019
+
+drc -z ALU_3bit.ncd ALU_3bit.pcf
+
+DRC detected 0 errors and 0 warnings.

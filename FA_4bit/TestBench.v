@@ -34,7 +34,7 @@ module TestBench;
 	wire Cout;
 
 	// Instantiate the Unit Under Test (UUT)
-	Practice_1 uut (
+	four_bit_adder uut (
 		.A(A), 
 		.B(B), 
 		.Cin(Cin), 

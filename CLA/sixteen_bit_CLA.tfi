@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+sixteen_bit_CLA instance_name (
+    .A(A), 
+    .B(B), 
+    .Cin(Cin), 
+    .Z(Z), 
+    .Cout(Cout)
+    );
+
+

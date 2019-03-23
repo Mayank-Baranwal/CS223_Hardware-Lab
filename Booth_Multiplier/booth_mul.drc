@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Mar 22 17:52:49 2019
+
+drc -z Booth_Mul.ncd Booth_Mul.pcf
+
+DRC detected 0 errors and 0 warnings.

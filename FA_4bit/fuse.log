@@ -8,15 +8,15 @@ Analyzing Verilog file "C:/CS223_Hardware_Lab/FA_4bit/TestBench.v" into library 
 Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 86668 KB
-Fuse CPU Usage: 203 ms
+Fuse Memory Usage: 85708 KB
+Fuse CPU Usage: 140 ms
 Compiling module FullAdder_1
-Compiling module Practice_1
+Compiling module four_bit_adder
 Compiling module TestBench
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 4 Verilog Units
 Built simulation executable C:/CS223_Hardware_Lab/FA_4bit/TestBench_isim_beh.exe
-Fuse Memory Usage: 90080 KB
-Fuse CPU Usage: 249 ms
+Fuse Memory Usage: 90144 KB
+Fuse CPU Usage: 140 ms

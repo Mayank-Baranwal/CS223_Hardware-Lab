@@ -1,2 +1,8 @@
+MO sixteen_bit_CLA NULL sixteen_bit_CLA.v vlg69/sixteen__bit___c_l_a.bin 1550267175
+MO four_bit_CLA NULL CLA.v vlg21/four__bit___c_l_a.bin 1550265310
 MO CLA_4bit NULL CLA.v vlg4E/_c_l_a__4bit.bin 1549662598
+MO generate_g NULL sixteen_bit_CLA.v vlg79/generate__g.bin 1550267175
+MO generate_p NULL sixteen_bit_CLA.v vlg02/generate__p.bin 1550267175
+MO generate_q NULL sixteen_bit_CLA.v vlg03/generate__q.bin 1550266220
+MO CLA_four_new NULL CLA_four_new.v vlg58/_c_l_a__four__new.bin 1550267175
 MO CLA NULL CLA.v vlg48/_c_l_a.bin 1549662694

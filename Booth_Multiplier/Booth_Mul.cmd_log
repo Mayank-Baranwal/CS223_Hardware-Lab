@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.xst" -ofn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 Booth_Mul.ngc Booth_Mul.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Booth_Mul_map.ncd Booth_Mul.ngd Booth_Mul.pcf 
+par -w -intstyle ise -ol high -mt off Booth_Mul_map.ncd Booth_Mul.ncd Booth_Mul.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Booth_Mul.twx Booth_Mul.ncd -o Booth_Mul.twr Booth_Mul.pcf -ucf Ports.ucf 
+bitgen -intstyle ise -f Booth_Mul.ut Booth_Mul.ncd 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.xst" -ofn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.xst" -ofn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 Booth_Mul.ngc Booth_Mul.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Booth_Mul_map.ncd Booth_Mul.ngd Booth_Mul.pcf 
+par -w -intstyle ise -ol high -mt off Booth_Mul_map.ncd Booth_Mul.ncd Booth_Mul.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Booth_Mul.twx Booth_Mul.ncd -o Booth_Mul.twr Booth_Mul.pcf -ucf Ports.ucf 
+bitgen -intstyle ise -f Booth_Mul.ut Booth_Mul.ncd 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.xst" -ofn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 Booth_Mul.ngc Booth_Mul.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Booth_Mul_map.ncd Booth_Mul.ngd Booth_Mul.pcf 
+par -w -intstyle ise -ol high -mt off Booth_Mul_map.ncd Booth_Mul.ncd Booth_Mul.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Booth_Mul.twx Booth_Mul.ncd -o Booth_Mul.twr Booth_Mul.pcf -ucf Ports.ucf 
+bitgen -intstyle ise -f Booth_Mul.ut Booth_Mul.ncd 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.xst" -ofn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 Booth_Mul.ngc Booth_Mul.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 Booth_Mul.ngc Booth_Mul.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Booth_Mul_map.ncd Booth_Mul.ngd Booth_Mul.pcf 
+par -w -intstyle ise -ol high -mt off Booth_Mul_map.ncd Booth_Mul.ncd Booth_Mul.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Booth_Mul.twx Booth_Mul.ncd -o Booth_Mul.twr Booth_Mul.pcf -ucf Ports.ucf 
+bitgen -intstyle ise -f Booth_Mul.ut Booth_Mul.ncd 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.xst" -ofn "C:/CS223_Hardware_Lab/Booth_Multiplier/Booth_Mul.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ports.ucf -p xc6slx45-csg324-3 Booth_Mul.ngc Booth_Mul.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Booth_Mul_map.ncd Booth_Mul.ngd Booth_Mul.pcf 
+par -w -intstyle ise -ol high -mt off Booth_Mul_map.ncd Booth_Mul.ncd Booth_Mul.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Booth_Mul.twx Booth_Mul.ncd -o Booth_Mul.twr Booth_Mul.pcf -ucf Ports.ucf 
+bitgen -intstyle ise -f Booth_Mul.ut Booth_Mul.ncd 
