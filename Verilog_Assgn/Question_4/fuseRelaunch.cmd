@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_4/bit_8_divide_bit_4_test_isim_beh.exe" -prj "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_4/bit_8_divide_bit_4_test_beh.prj" "work.bit_8_divide_bit_4_test" "work.glbl" 

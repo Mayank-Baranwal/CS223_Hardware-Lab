@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 Pattern_Mealy.ngc Pattern_Mealy.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Pattern_Mealy_map.ncd Pattern_Mealy.ngd Pattern_Mealy.pcf 
+par -w -intstyle ise -ol high -mt off Pattern_Mealy_map.ncd Pattern_Mealy.ncd Pattern_Mealy.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pattern_Mealy.twx Pattern_Mealy.ncd -o Pattern_Mealy.twr Pattern_Mealy.pcf 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 
+xst -intstyle ise -ifn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.xst" -ofn "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Mealy/Pattern_Mealy.syr" 

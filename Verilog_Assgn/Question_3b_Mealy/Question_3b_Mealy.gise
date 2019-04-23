@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Question_3b_Mealy.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Pattern_Mealy.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Pattern_Mealy.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Pattern_Mealy.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Pattern_Mealy.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Pattern_Mealy.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Pattern_Mealy.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Pattern_Mealy.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Pattern_Mealy.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Pattern_Mealy.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Pattern_Mealy.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pattern_Mealy.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Pattern_Mealy.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Pattern_Mealy.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Pattern_Mealy.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Pattern_Mealy.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Pattern_Mealy.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Pattern_Mealy.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Pattern_Mealy.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Pattern_Mealy.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Pattern_Mealy_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Pattern_Mealy_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Pattern_Mealy_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Pattern_Mealy_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Pattern_Mealy_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Pattern_Mealy_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Pattern_Mealy_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Mealy_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Mealy_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Pattern_Mealy_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Pattern_Mealy_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Mealy_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pattern_Mealy_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Pattern_Mealy_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Pattern_Mealy_summary.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pattern_Mealy_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Pattern_Mealy_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Pattern_Mealy_test_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pattern_Mealy_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Pattern_Mealy_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Mealy_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1556009614" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1556009614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014898" xil_pn:in_ck="-2397655195039273711" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1556014898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Pattern_Mealy.v"/>
+      <outfile xil_pn:name="Pattern_Mealy_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014255" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3934752628858362507" xil_pn:start_ts="1556014255">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014255" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8949744356368127927" xil_pn:start_ts="1556014255">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556009614" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8274191708653644027" xil_pn:start_ts="1556009614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014900" xil_pn:in_ck="-2397655195039273711" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1556014900">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Pattern_Mealy.v"/>
+      <outfile xil_pn:name="Pattern_Mealy_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014902" xil_pn:in_ck="-2397655195039273711" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8512883246553244139" xil_pn:start_ts="1556014900">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Pattern_Mealy_test_beh.prj"/>
+      <outfile xil_pn:name="Pattern_Mealy_test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014902" xil_pn:in_ck="6842246144350116295" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7088443925026489176" xil_pn:start_ts="1556014902">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Pattern_Mealy_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014212" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1556014212">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014212" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1596982401426252886" xil_pn:start_ts="1556014212">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014212" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8274191708653644027" xil_pn:start_ts="1556014212">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014212" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1556014212">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014212" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7328093270794268948" xil_pn:start_ts="1556014212">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014212" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8977612015756273942" xil_pn:start_ts="1556014212">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014212" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8012808838330172347" xil_pn:start_ts="1556014212">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014218" xil_pn:in_ck="5920796679638043257" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="6098875771057958250" xil_pn:start_ts="1556014212">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="Pattern_Mealy.lso"/>
+      <outfile xil_pn:name="Pattern_Mealy.ngc"/>
+      <outfile xil_pn:name="Pattern_Mealy.ngr"/>
+      <outfile xil_pn:name="Pattern_Mealy.prj"/>
+      <outfile xil_pn:name="Pattern_Mealy.stx"/>
+      <outfile xil_pn:name="Pattern_Mealy.syr"/>
+      <outfile xil_pn:name="Pattern_Mealy.xst"/>
+      <outfile xil_pn:name="Pattern_Mealy_stx_beh.prj"/>
+      <outfile xil_pn:name="Pattern_Mealy_test_stx_beh.prj"/>
+      <outfile xil_pn:name="Pattern_Mealy_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1556009455" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1026040762792695191" xil_pn:start_ts="1556009455">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556009462" xil_pn:in_ck="-8612841672513963941" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="5396400359479586300" xil_pn:start_ts="1556009455">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Pattern_Mealy.bld"/>
+      <outfile xil_pn:name="Pattern_Mealy.ngd"/>
+      <outfile xil_pn:name="Pattern_Mealy_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1556009478" xil_pn:in_ck="-8612841672513963940" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="4245753365082497697" xil_pn:start_ts="1556009462">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Pattern_Mealy.pcf"/>
+      <outfile xil_pn:name="Pattern_Mealy_map.map"/>
+      <outfile xil_pn:name="Pattern_Mealy_map.mrp"/>
+      <outfile xil_pn:name="Pattern_Mealy_map.ncd"/>
+      <outfile xil_pn:name="Pattern_Mealy_map.ngm"/>
+      <outfile xil_pn:name="Pattern_Mealy_map.xrpt"/>
+      <outfile xil_pn:name="Pattern_Mealy_summary.xml"/>
+      <outfile xil_pn:name="Pattern_Mealy_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1556009499" xil_pn:in_ck="-3148053630010960523" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-3829590541433901613" xil_pn:start_ts="1556009478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Pattern_Mealy.ncd"/>
+      <outfile xil_pn:name="Pattern_Mealy.pad"/>
+      <outfile xil_pn:name="Pattern_Mealy.par"/>
+      <outfile xil_pn:name="Pattern_Mealy.ptwx"/>
+      <outfile xil_pn:name="Pattern_Mealy.unroutes"/>
+      <outfile xil_pn:name="Pattern_Mealy.xpi"/>
+      <outfile xil_pn:name="Pattern_Mealy_pad.csv"/>
+      <outfile xil_pn:name="Pattern_Mealy_pad.txt"/>
+      <outfile xil_pn:name="Pattern_Mealy_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1556009499" xil_pn:in_ck="-8612841672513964072" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1556009493">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Pattern_Mealy.twr"/>
+      <outfile xil_pn:name="Pattern_Mealy.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

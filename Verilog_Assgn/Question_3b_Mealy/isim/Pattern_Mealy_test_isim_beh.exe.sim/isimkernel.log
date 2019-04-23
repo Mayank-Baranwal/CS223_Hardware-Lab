@@ -1,0 +1,28 @@
+Command line:
+   Pattern_Mealy_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53873
+
+Tue Apr 23 15:51:45 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 971.936 Meg
+
+ Total Signals          : 17
+ Total Nets             : 16
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 102
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 971.936 Meg
+
+Tue Apr 23 15:52:13 2019
+

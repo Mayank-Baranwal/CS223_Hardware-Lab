@@ -1,0 +1,28 @@
+Command line:
+   Pattern_Moore_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  53801
+
+Tue Apr 23 15:31:57 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 814.969 Meg
+
+ Total Signals          : 17
+ Total Nets             : 17
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 104
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 814.969 Meg
+
+Tue Apr 23 15:31:59 2019
+

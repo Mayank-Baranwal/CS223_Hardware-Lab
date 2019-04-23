@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Problem_3a.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Pattern_Detector.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Pattern_Detector.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Pattern_Detector.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Pattern_Detector.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pattern_Detector.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Pattern_Detector.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Pattern_Detector.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Pattern_Detector.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Pattern_Detector_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Pattern_Detector_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pattern_Detector_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Pattern_Detector_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Pattern_Detector_test_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pattern_Detector_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Detector_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1556013380" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1556013380">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014015" xil_pn:in_ck="849452101017579253" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1556014015">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Pattern_Detector.v"/>
+      <outfile xil_pn:name="Pattern_Detector_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013342" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3141230845936945203" xil_pn:start_ts="1556013342">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013342" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1179430511510042229" xil_pn:start_ts="1556013342">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013342" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2199847448574112707" xil_pn:start_ts="1556013342">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014017" xil_pn:in_ck="849452101017579253" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1556014017">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Pattern_Detector.v"/>
+      <outfile xil_pn:name="Pattern_Detector_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014019" xil_pn:in_ck="849452101017579253" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2592935600909142119" xil_pn:start_ts="1556014017">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Pattern_Detector_test_beh.prj"/>
+      <outfile xil_pn:name="Pattern_Detector_test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1556014019" xil_pn:in_ck="-6083811144757213691" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5444750729704745028" xil_pn:start_ts="1556014019">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Pattern_Detector_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013003" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1556013003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013003" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7790927801321625324" xil_pn:start_ts="1556013003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013003" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2199847448574112707" xil_pn:start_ts="1556013003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013003" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1556013003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013003" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6757198290072197870" xil_pn:start_ts="1556013003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013003" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8977612015756273942" xil_pn:start_ts="1556013003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013003" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7050954398089630535" xil_pn:start_ts="1556013003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1556013917" xil_pn:in_ck="-7523030990744930501" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="4753314730968590444" xil_pn:start_ts="1556013912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="Pattern_Detector.lso"/>
+      <outfile xil_pn:name="Pattern_Detector.ngc"/>
+      <outfile xil_pn:name="Pattern_Detector.ngr"/>
+      <outfile xil_pn:name="Pattern_Detector.prj"/>
+      <outfile xil_pn:name="Pattern_Detector.stx"/>
+      <outfile xil_pn:name="Pattern_Detector.syr"/>
+      <outfile xil_pn:name="Pattern_Detector.xst"/>
+      <outfile xil_pn:name="Pattern_Detector_test_stx_beh.prj"/>
+      <outfile xil_pn:name="Pattern_Detector_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

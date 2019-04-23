@@ -1,0 +1,28 @@
+Command line:
+   bit_8_divide_bit_4_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53941
+
+Tue Apr 23 16:14:10 2019
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 814.514 Meg
+
+ Total Signals          : 19
+ Total Nets             : 37
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 171
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 814.514 Meg
+
+Tue Apr 23 16:14:49 2019
+

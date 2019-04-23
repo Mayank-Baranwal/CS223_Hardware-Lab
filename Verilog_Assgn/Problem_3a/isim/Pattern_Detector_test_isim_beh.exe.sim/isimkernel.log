@@ -1,0 +1,28 @@
+Command line:
+   Pattern_Detector_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53825
+
+Tue Apr 23 15:37:02 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 814.186 Meg
+
+ Total Signals          : 38
+ Total Nets             : 34
+ Total Signal Drivers   : 23
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 32
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 119
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 815.235 Meg
+
+Tue Apr 23 15:37:34 2019
+
