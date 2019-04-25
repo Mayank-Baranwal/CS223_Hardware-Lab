@@ -79,6 +79,7 @@
     <transform xil_pn:end_ts="1556014594" xil_pn:in_ck="6033443410085452295" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4724019114556210059" xil_pn:start_ts="1556014592">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="distributive_verification_test_beh.prj"/>
@@ -91,6 +92,8 @@
     <transform xil_pn:end_ts="1556015880" xil_pn:in_ck="1133397296850565518" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8811359022548623918" xil_pn:start_ts="1556015880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="distributive_verification_test_isim_beh.wdb"/>

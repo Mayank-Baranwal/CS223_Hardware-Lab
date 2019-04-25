@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/CS223_Hardware_Lab/Testing/FSM_Moore_Behavioural/Moore_Pattern_Test_isim_beh.exe" -prj "C:/CS223_Hardware_Lab/Testing/FSM_Moore_Behavioural/Moore_Pattern_Test_beh.prj" "work.Moore_Pattern_Test" "work.glbl" 

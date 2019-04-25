@@ -22,8 +22,8 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "C:/CS223_Hardware_Lab/Verilog_Assgn/Question_3b_Moore/Pattern_Moore_test.v";
-static int ng1[] = {0, 0};
-static int ng2[] = {1, 0};
+static int ng1[] = {1, 0};
+static int ng2[] = {0, 0};
 static unsigned int ng3[] = {1U, 0U};
 static unsigned int ng4[] = {0U, 0U};
 
@@ -50,7 +50,7 @@ LAB4:    xsi_set_current_line(35, ng0);
     t3 = (t0 + 920);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
     xsi_set_current_line(36, ng0);
-    t2 = ((char*)((ng2)));
+    t2 = ((char*)((ng1)));
     t3 = (t0 + 1012);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
     xsi_set_current_line(37, ng0);
@@ -60,7 +60,7 @@ LAB4:    xsi_set_current_line(35, ng0);
 
 LAB1:    return;
 LAB5:    xsi_set_current_line(37, ng0);
-    t3 = ((char*)((ng1)));
+    t3 = ((char*)((ng2)));
     t4 = (t0 + 1012);
     xsi_vlogvar_assign_value(t4, t3, 0, 0, 1);
     xsi_set_current_line(38, ng0);

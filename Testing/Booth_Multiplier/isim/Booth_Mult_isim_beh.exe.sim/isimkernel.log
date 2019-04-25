@@ -1,0 +1,28 @@
+Command line:
+   Booth_Mult_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50814
+
+Fri Apr 26 01:02:37 2019
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 815.206 Meg
+
+ Total Signals          : 16
+ Total Nets             : 29
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 118
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 816.255 Meg
+
+Fri Apr 26 01:03:28 2019
+

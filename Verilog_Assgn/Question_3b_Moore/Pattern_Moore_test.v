@@ -32,7 +32,7 @@ module Pattern_Moore_test;
 
     initial
     begin
-        clkk = 0;
+        clkk = 1;
         reset2 = 1;
         #10 reset2 = 0;
         #10 bin = 1'b1;

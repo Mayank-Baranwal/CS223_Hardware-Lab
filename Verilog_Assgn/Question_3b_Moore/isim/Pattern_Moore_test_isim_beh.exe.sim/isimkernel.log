@@ -2,14 +2,14 @@ Command line:
    Pattern_Moore_test_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  53866
+     -socket  50501
 
-Tue Apr 23 15:49:42 2019
+Fri Apr 26 00:07:56 2019
 
 
- Elaboration Time: 0.0625 sec
+ Elaboration Time: 0.046875 sec
 
- Current Memory Usage: 814.973 Meg
+ Current Memory Usage: 814.711 Meg
 
  Total Signals          : 18
  Total Nets             : 17
@@ -20,9 +20,9 @@ Tue Apr 23 15:49:42 2019
  Total Traceable Variables  : 24
  Total Scalar Nets and Variables : 107
 
- Total Simulation Time: 0.15625 sec
+ Total Simulation Time: 0.0625 sec
 
- Current Memory Usage: 814.973 Meg
+ Current Memory Usage: 500.13 Meg
 
-Tue Apr 23 15:50:19 2019
+Fri Apr 26 00:11:46 2019
 
